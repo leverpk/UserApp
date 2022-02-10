@@ -1,0 +1,11 @@
+entity SimpleUser {
+	firstName String,
+	lastName String,
+	email String,
+}
+
+// Set pagination options
+paginate SimpleUser with pagination
+filter SimpleUser
+
+
